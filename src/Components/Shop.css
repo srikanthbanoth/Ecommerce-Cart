@@ -1,0 +1,41 @@
+.mainGrid{
+    /* margin: 0px auto; */
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* justify-items: center; */
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    /* grid-gap: 10px; */
+    
+}
+
+.ItemGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    /* border: 1px solid black; */
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* width: inherit; */
+    /* flex: 1; */
+}
+
+.ItemGrid button{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+p{
+    font-weight: bold;
+    margin: 5px;
+}
+h5{
+    margin: 15px;
+}

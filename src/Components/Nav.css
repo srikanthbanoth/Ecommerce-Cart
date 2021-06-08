@@ -1,0 +1,22 @@
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+.header{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+.links li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+li:hover{
+transform: scale(1);
+}
